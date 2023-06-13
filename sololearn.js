@@ -29,3 +29,10 @@ let y = 6;
 console.log(x*y);
 console.log(x/y);
 
+let isActive = true;
+let isHoliday = false;
+
+
+function showMessage(){
+    alert("Bonjour l'univers")
+}
