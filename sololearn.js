@@ -86,3 +86,30 @@ console.log(balance);
 let six = 5;
 six++;
 console.log(six);
+
+let surname = "John";
+let text = `Bienvenue ${surname}`;
+console.log(text);
+
+//Qu'est ce que l'orienté Objet ?
+
+console.log("Welcome, " + surname + "!");
+console.log(`Welcome, ${surname}!`);
+
+console.log('I\'ll be back');
+
+let e = 3;
+let f = e;
+
+let user = {            //Un objet
+    nom: "John",        //Par clé "nom" valeur de stockage "John"
+    age: 30,            //Par clé "age" valeur de stockage 30
+    boulot: "Serveur en restauration"
+};
+console.log(user.boulot);
+
+let fruit = prompt("Quel fruit acheter ?", "Des fraises");
+let panier = {
+    [fruit]: 5,
+};
+alert(panier.fruit);
