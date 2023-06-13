@@ -40,3 +40,20 @@ if (color == 'red'){
 } else (
     console.log('unknown')
 )
+
+let choice = 3;
+
+switch(choice){
+    case 1://match
+        console.log("Sports");
+        break;
+    case 2:
+        console.log("Business");
+        break;
+    case 3:
+        console.log("Technology");
+        break;
+}
+
+firstArr = {};
+secondArr = firstArr;
