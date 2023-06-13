@@ -25,9 +25,11 @@ console.log(age)
 // dimanche = travail; //Celà créera un message d'erreur.
 
 let x = 54;
-let y = 6;
-console.log(x*y);
-console.log(x/y);
+let y = 9;
+let z = 1/2;
+console.log(y**z)
+// console.log(x*y);
+// console.log(x/y);
 
 let isActive = true;
 let isHoliday = false;
@@ -36,3 +38,43 @@ let isHoliday = false;
 function showMessage(){
     alert("Bonjour l'univers")
 }
+showMessage();
+
+let count = 0;
+count++; //Ici, count++ est le raccourcie de count = count+1
+count--;
+console.log(count)
+
+let v = 10;
+console.log(--v);
+// console.log(v);
+let items = 200;
+let distrib = 7;
+console.log(items % distrib);
+let num = 5;
+
+// let a = 5, b = 6, c = 8;
+
+let score = 100;
+score = score + 10;
+console.log(score);
+
+let quinze = 10;
+quinze += 5; // quinze = quinze + 5;
+quinze -= 5; // quinze = quinze - 5;
+quinze *= 5; // quinze = quinze * 5;
+quinze /= 5; // quinze = quinze / 5;
+quinze %= 5; // quinze = quinze % 5;
+console.log(quinze) 
+
+let d = 8;
+d++;
+d/=3;
+console.log(d);
+
+let price = 50;
+let rate = 1.2;
+price *= rate;
+console.log(price)
+
+//Un callback est une fonction de rappelle
