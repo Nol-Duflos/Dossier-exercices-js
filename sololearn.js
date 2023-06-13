@@ -83,3 +83,6 @@ balance -= withdraw;
 console.log(balance);
 //Un callback est une fonction de rappelle
 
+let six = 5;
+six++;
+console.log(six);
