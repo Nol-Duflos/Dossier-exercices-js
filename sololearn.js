@@ -77,4 +77,9 @@ let rate = 1.2;
 price *= rate;
 console.log(price)
 
+let balance = 416500;
+let withdraw = 160000;
+balance -= withdraw;
+console.log(balance);
 //Un callback est une fonction de rappelle
+
