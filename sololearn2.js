@@ -116,3 +116,20 @@
 // }
 
 // console.log(num);
+
+let operation = '+';
+let value1 = 4;
+let value2 = 7;
+function basicOp(operation, value1, value2){
+  let calcul = (value1 + operation + value2);
+  console.log(calcul);
+}
+
+var cuboid = {
+  length : 25,
+  width : 50,
+  height : 200
+};
+
+var volume = cuboid.length * cuboid.width * cuboid.height;
+document.write(volume);
