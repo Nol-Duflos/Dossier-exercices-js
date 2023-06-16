@@ -133,3 +133,11 @@ var cuboid = {
 
 var volume = cuboid.length * cuboid.width * cuboid.height;
 document.write(volume);
+
+let operation = "+";
+let value1 = 4;
+let value2 = 5;
+function basicOp(operation, value1, value2){
+  let calc = value1 + operation + value2;
+  console.log(calc);
+}
